@@ -1,0 +1,41 @@
+.custom-modal-style {
+    width: 80%;
+    /* height: 600px; */
+    padding: 20px;
+}
+.demo_image{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform .2s; 
+}
+.demo_sub_image{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform .2s; 
+    /* border: 4px solid rgb(100, 100, 100); */
+    box-shadow: 3px 3px  rgb(167, 167, 167);
+}
+
+.demo_sub_image:hover {
+    align-items: center;
+    transform: scale(2.5);
+    border-radius: 0px;
+    box-shadow: 3px 3px 3px 3px rgb(167, 167, 167);
+
+}
+
+.demo_image:hover {
+    align-items: center;
+    transform: scale(1.2);
+    border-radius: 0px;
+
+}
+@media (max-width:500px){
+    .custom-modal-style{
+        width: 90%;
+        left: 5%;
+    }
+    
+}
